@@ -9,7 +9,7 @@ populateUI();
 
 let ticketPrice = +movieSelect.value;
 
-
+// Best
 // Save selected movie index and price 
 function setMovieData(movieIndex, moviePrice) {
     localStorage.setItem('selectedMovieIndex', movieIndex);
